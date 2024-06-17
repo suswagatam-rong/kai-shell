@@ -5,9 +5,9 @@ set(CMAKE_C_STANDARD 11)
 
 # Add executable and specify sources
 add_executable(kai_shell
-        main.c
-        kai_shell.h
-        kai_shell.c
+        src/main.c
+        src/kai_shell.h
+        src/kai_shell.c
 )
 
 # Set compiler flags for both GCC and Clang
